@@ -4,27 +4,52 @@
 
 
 #include "VCF_Finder.h"
+#include <iomanip>
 
 void Vcf_finder::pretty_write_list(const std::__cxx11::list<Quast_Block> &list)
 {
-    std::cout << "Chromosomes:\t";
+    const int column_size = 15;
+    std::cout << std::setw(column_size) << "Chromosomes:";
     for(auto & block : list)
     {
-        std::cout << block.reference << "\t";
+        std::cout << std::setw(column_size) << std::right << block.reference;
     }
     std::cout << "\n";
 
-    std::cout << "Orientation:\t";
+    std::cout << std::setw(column_size) << "Orientation:";
     for(auto & block : list)
     {
-        std::cout << local_orientation_symb[block.local_orientation] << "\t";
+        std::cout << std::setw(column_size) << std::right << local_orientation_symb[block.local_orientation];
     }
     std::cout << "\n";
 
-    std::cout << "Local end:\t\t";
+    std::cout << std::setw(column_size) << "Length:";
     for(auto & block : list)
     {
-        std::cout << block.local_end << "\t";
+        std::cout << std::setw(column_size) << std::right << std::abs(block.local_end - block.local_start);
+    }
+    std::cout << "\n";
+
+    std::cout << std::setw(column_size) << "Local cords:";
+    for(auto & block : list)
+    {
+        std::stringstream s;
+        s << block.local_start << " - "  << block.local_end;
+        std::cout << std::setw(column_size) << std::right << s.str();
+    }
+    std::cout << "\n";
+
+    std::cout << std::setw(column_size) << "Global start:";
+    for(auto & block : list)
+    {
+        std::cout << std::setw(column_size) << std::right << block.global_start;
+    }
+    std::cout << "\n";
+
+    std::cout << std::setw(column_size) << "Global end:";
+    for(auto & block : list)
+    {
+        std::cout << std::setw(column_size) << std::right << block.global_end;
     }
     std::cout << "\n";
 }
@@ -41,18 +66,7 @@ void Vcf_finder::find_vcf(std::map<int, std::list<Quast_Block>> reads)
 
             pretty_write_list(blocks_list);
 
-            std::cout << "\nGaps sizes are: \t";
-
             auto current_block = blocks_list.begin();
-            for(int i = 0; i < blocks_list.size() - 1; i++)
-            {
-                auto next_block = current_block;
-                next_block++;
-                std::cout << "\t" << i << ") " << current_block->global_end - next_block->global_start;
-                current_block++;
-            }
-
-            std::cout << "\n";
 
             current_block = blocks_list.begin();
             for(int i = 0; i < blocks_list.size() - 1; i++)

@@ -18,11 +18,11 @@
 class Vcf_finder{
 public:
     std::__cxx11::string local_orientation_names[2] = {"right-increasing", "left-increasing"};
-    std::__cxx11::string local_orientation_symb[2] = {"->", "<-"};
+    std::__cxx11::string local_orientation_symb[2] = {"<-", "->"};
 
     void pretty_write_list(const std::__cxx11::list<Quast_Block> & list);
 
-    void compare_reads(std::vector<std::list<Quast_Block>>)
+    //void compare_reads(std::vector<std::list<Quast_Block>>)
 
     void find_vcf(std::map<int, std::list<Quast_Block>> reads);
 private:
