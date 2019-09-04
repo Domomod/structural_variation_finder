@@ -7,7 +7,7 @@
 #include "Quast_Block.h"
 #include <climits>
 
-long Quast_Block::calculate_local_distance(const Quast_Block &second) const
+long Quast_Block::calculate_alignment_gap(const Quast_Block &second) const
 {
     /* When calculating local distance between blocks one must take into acccount:
      *  -> which way they are oriented
@@ -39,7 +39,7 @@ long Quast_Block::calculate_local_distance(const Quast_Block &second) const
  *      Positive value, if the blocks do not overlap
  *      Negative value if the blocks overlap.
  **/
-long Quast_Block::calculate_global_distance(const Quast_Block &second) const
+long Quast_Block::calculate_reference_gap(const Quast_Block &second) const
 {
     if(this->reference != second.reference){
         return LONG_MIN;
@@ -53,5 +53,59 @@ long Quast_Block::calculate_global_distance(const Quast_Block &second) const
     else{
         assert(this->global_end >= second.global_end); //Assert that one block is not fully contained in the other block
         return this->global_start - second.global_end;
+    }
+}
+
+std::pair<long,long> Quast_Block::calculate_global_gap_coords(const Quast_Block &second) const
+{
+    if(this->reference != second.reference){
+        return std::pair<long,long>(LONG_MIN, LONG_MIN);
+    }
+    //Check which block maps earlier onto the genome
+    if(this->global_start < second.global_start)
+    {
+        assert(this->global_end <= second.global_end); //Assert that one block is not fully contained in the other block
+        //Assure correct order of those two coordinates (blocks might intersect)
+        if(this->global_end < second.global_start)
+        {
+            return std::pair<long, long>(this->global_end, second.global_start);
+        }
+        else
+        {
+            return std::pair<long, long>(second.global_start, this->global_end);
+        }
+    }
+    else{
+        assert(this->global_end >= second.global_end); //Assert that one block is not fully contained in the other block
+        if(this->global_start < second.global_end)
+        {
+            return std::pair<long, long>(this->global_start, second.global_end);
+        }
+        else
+        {
+            return std::pair<long, long>(second.global_end, this->global_start);
+        }
+    }
+}
+
+bool Quast_Block::mapped_onto_same_chromosome_as(const Quast_Block &second) const
+{
+    return reference == second.reference;
+}
+
+std::pair<long, long> Quast_Block::calculate_outer_coords(const Quast_Block &second) const
+{
+    if(this->reference != second.reference){
+        return std::pair<long,long>(LONG_MIN, LONG_MIN);
+    }
+    //Check which block maps earlier onto the genome
+    if(this->global_start < second.global_start)
+    {
+        assert(this->global_end <= second.global_end); //Assert that one block is not fully contained in the other block
+        return std::pair<long, long>(this->global_start, second.global_end);
+    }
+    else{
+        assert(this->global_end >= second.global_end); //Assert that one block is not fully contained in the other block
+        return std::pair<long, long>(second.global_start, this->global_end);
     }
 }

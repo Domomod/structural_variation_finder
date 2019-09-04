@@ -1,0 +1,8 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                       ma_T0  ma_T1  ref_ma
+# fully unaligned contigs      13     24     12    
+Fully unaligned length         13077  25529  14847 
+# partially unaligned contigs  27     23     26    
+Partially unaligned length     54458  35824  44457 
+# N's                          0      0      0     

@@ -1,0 +1,60 @@
+../../quast-5.0.2/quast.py ../pliki_wynikowe/ma_T0.fasta ../pliki_wynikowe2/ma_T1.fasta ../pliki_wynikowe3/ref_ma.fasta
+
+Version: 5.0.2, 0bb1dd1b
+
+System information:
+  OS: Linux-2.6.32-696.3.2.el6.x86_64-x86_64-with-redhat-6.10-Carbon (linux_64)
+  Python version: 2.6.6
+  CPUs number: 16
+
+Started: 2019-03-07 11:21:12
+
+Logging to /mnt/groups/plg-groups/plggillumina/DominikKrzysiu/grasshopper/probaUruchomienia/quast_wyniki/quast_results/results_2019_03_07_11_21_12/quast.log
+NOTICE: Maximum number of threads is set to 4 (use --threads option to set it manually)
+
+CWD: /mnt/groups/plg-groups/plggillumina/DominikKrzysiu/grasshopper/probaUruchomienia/quast_wyniki
+Main parameters: 
+  MODE: default, threads: 4, minimum contig length: 500, minimum alignment length: 65, \
+  ambiguity: one, threshold for extensive misassembly size: 1000
+
+WARNING: Can't draw plots: matplotlib version is old! Please use matplotlib version 1.1 or higher.
+
+Contigs:
+  Pre-processing...
+  1  ../pliki_wynikowe/ma_T0.fasta ==> ma_T0
+  2  ../pliki_wynikowe2/ma_T1.fasta ==> ma_T1
+  3  ../pliki_wynikowe3/ref_ma.fasta ==> ref_ma
+
+2019-03-07 11:21:12
+Running Basic statistics processor...
+  Contig files: 
+    1  ma_T0
+    2  ma_T1
+    3  ref_ma
+  Calculating N50 and L50...
+    1  ma_T0, N50 = 1149, L50 = 30, Total length = 157407, GC % = 35.36, # N's per 100 kbp =  0.00
+    2  ma_T1, N50 = 906, L50 = 50, Total length = 160489, GC % = 35.13, # N's per 100 kbp =  0.00
+    3  ref_ma, N50 = 1405, L50 = 47, Total length = 251304, GC % = 34.16, # N's per 100 kbp =  0.00
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2019-03-07 11:21:12
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 1: Creating Icarus viewers...
+Done
+
+2019-03-07 11:21:12
+RESULTS:
+  Text versions of total report are saved to /mnt/groups/plg-groups/plggillumina/DominikKrzysiu/grasshopper/probaUruchomienia/quast_wyniki/quast_results/results_2019_03_07_11_21_12/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /mnt/groups/plg-groups/plggillumina/DominikKrzysiu/grasshopper/probaUruchomienia/quast_wyniki/quast_results/results_2019_03_07_11_21_12/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /mnt/groups/plg-groups/plggillumina/DominikKrzysiu/grasshopper/probaUruchomienia/quast_wyniki/quast_results/results_2019_03_07_11_21_12/report.html
+  Icarus (contig browser) is saved to /mnt/groups/plg-groups/plggillumina/DominikKrzysiu/grasshopper/probaUruchomienia/quast_wyniki/quast_results/results_2019_03_07_11_21_12/icarus.html
+  Log is saved to /mnt/groups/plg-groups/plggillumina/DominikKrzysiu/grasshopper/probaUruchomienia/quast_wyniki/quast_results/results_2019_03_07_11_21_12/quast.log
+
+Finished: 2019-03-07 11:21:13
+Elapsed time: 0:00:00.787894
+NOTICEs: 2; WARNINGs: 1; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

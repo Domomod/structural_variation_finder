@@ -1,0 +1,22 @@
+reference chromosomes:
+	Pt (total length: 154478 bp, total length without N's: 154478 bp, maximal covered length: 117562 bp)
+	1 (total length: 30427671 bp, total length without N's: 30263312 bp, maximal covered length: 11797 bp)
+	Mt (total length: 366924 bp, total length without N's: 366924 bp, maximal covered length: 1190 bp)
+	3 (total length: 23459830 bp, total length without N's: 23453853 bp, maximal covered length: 10885 bp)
+	2 (total length: 19698289 bp, total length without N's: 19695728 bp, maximal covered length: 7941 bp)
+	5 (total length: 26975502 bp, total length without N's: 26965224 bp, maximal covered length: 8056 bp)
+	4 (total length: 18585056 bp, total length without N's: 18582024 bp, maximal covered length: 40668 bp)
+
+total genome size: 119667750
+
+gap min size: 50
+partial gene/operon min size: 100
+
+
+
+assembly                 | genome    | duplication | gaps      | genes     | partial   | operons   | partial   |
+                         | fraction  | ratio       | number    |           | genes     |           | operons   |
+========================================================================================================================
+ma_T0                    | 0.072     | 1.039       | 290       | -         | -         | -         | -         |
+ma_T1                    | 0.080     | 1.039       | 299       | -         | -         | -         | -         |
+ref_ma                   | 0.155     | 1.039       | 304       | -         | -         | -         | -         |

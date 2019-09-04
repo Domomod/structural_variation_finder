@@ -1,0 +1,128 @@
+../../quast-5.0.2/quast.py ../pliki_wynikowe/ma_T0.fasta ../pliki_wynikowe2/ma_T1.fasta ../pliki_wynikowe3/ref_ma.fasta -R ../../../folder/genomeAthaliana/genome.fa
+
+Version: 5.0.2, 0bb1dd1b
+
+System information:
+  OS: Linux-2.6.32-696.3.2.el6.x86_64-x86_64-with-redhat-6.10-Carbon (linux_64)
+  Python version: 2.6.6
+  CPUs number: 16
+
+Started: 2019-03-07 11:37:32
+
+Logging to /mnt/groups/plg-groups/plggillumina/DominikKrzysiu/grasshopper/probaUruchomienia/quast_wyniki/quast_results/results_2019_03_07_11_37_32/quast.log
+NOTICE: Maximum number of threads is set to 4 (use --threads option to set it manually)
+
+CWD: /mnt/groups/plg-groups/plggillumina/DominikKrzysiu/grasshopper/probaUruchomienia/quast_wyniki
+Main parameters: 
+  MODE: default, threads: 4, minimum contig length: 500, minimum alignment length: 65, \
+  ambiguity: one, threshold for extensive misassembly size: 1000
+
+WARNING: Can't draw plots: matplotlib version is old! Please use matplotlib version 1.1 or higher.
+
+Reference:
+  /mnt/groups/plg-groups/plggillumina/DominikKrzysiu/folder/genomeAthaliana/genome.fa ==> genome
+
+Contigs:
+  Pre-processing...
+  1  ../pliki_wynikowe/ma_T0.fasta ==> ma_T0
+  2  ../pliki_wynikowe2/ma_T1.fasta ==> ma_T1
+  3  ../pliki_wynikowe3/ref_ma.fasta ==> ref_ma
+
+2019-03-07 11:37:39
+Running Basic statistics processor...
+  Reference genome:
+    genome.fa, length = 119667750, num fragments = 7, GC % = 36.06
+  Contig files: 
+    1  ma_T0
+    2  ma_T1
+    3  ref_ma
+  Calculating N50 and L50...
+    1  ma_T0, N50 = 1149, L50 = 30, Total length = 157407, GC % = 35.36, # N's per 100 kbp =  0.00
+    2  ma_T1, N50 = 906, L50 = 50, Total length = 160489, GC % = 35.13, # N's per 100 kbp =  0.00
+    3  ref_ma, N50 = 1405, L50 = 47, Total length = 251304, GC % = 34.16, # N's per 100 kbp =  0.00
+Done.
+
+2019-03-07 11:37:52
+Running Contig analyzer...
+  1  ma_T0
+  1  Logging to files /mnt/groups/plg-groups/plggillumina/DominikKrzysiu/grasshopper/probaUruchomienia/quast_wyniki/quast_results/results_2019_03_07_11_37_32/contigs_reports/contigs_report_ma_T0.stdout and contigs_report_ma_T0.stderr...
+  1  Aligning contigs to the reference
+  1  /mnt/groups/plg-groups/plggillumina/DominikKrzysiu/grasshopper/quast-5.0.2/quast_libs/minimap2/minimap2 \
+     -c -x asm5 -B5 -O4,16 --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 \
+     --min-occ 200 -g 2500 --score-N 2 --cs -t 1 quast_results/results_2019_03_07_11_37_32/quast_corrected_input/genome.fa \
+     quast_results/results_2019_03_07_11_37_32/quast_corrected_input/ma_T0.fasta > \
+     quast_results/results_2019_03_07_11_37_32/contigs_reports/minimap_output/ma_T0.coords_tmp \
+     2>> quast_results/results_2019_03_07_11_37_32/contigs_reports/contigs_report_ma_T0.stderr
+  2  ma_T1
+  2  Logging to files /mnt/groups/plg-groups/plggillumina/DominikKrzysiu/grasshopper/probaUruchomienia/quast_wyniki/quast_results/results_2019_03_07_11_37_32/contigs_reports/contigs_report_ma_T1.stdout and contigs_report_ma_T1.stderr...
+  2  Aligning contigs to the reference
+  2  /mnt/groups/plg-groups/plggillumina/DominikKrzysiu/grasshopper/quast-5.0.2/quast_libs/minimap2/minimap2 \
+     -c -x asm5 -B5 -O4,16 --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 \
+     --min-occ 200 -g 2500 --score-N 2 --cs -t 1 quast_results/results_2019_03_07_11_37_32/quast_corrected_input/genome.fa \
+     quast_results/results_2019_03_07_11_37_32/quast_corrected_input/ma_T1.fasta > \
+     quast_results/results_2019_03_07_11_37_32/contigs_reports/minimap_output/ma_T1.coords_tmp \
+     2>> quast_results/results_2019_03_07_11_37_32/contigs_reports/contigs_report_ma_T1.stderr
+  3  ref_ma
+  3  Logging to files /mnt/groups/plg-groups/plggillumina/DominikKrzysiu/grasshopper/probaUruchomienia/quast_wyniki/quast_results/results_2019_03_07_11_37_32/contigs_reports/contigs_report_ref_ma.stdout and contigs_report_ref_ma.stderr...
+  3  Aligning contigs to the reference
+  3  /mnt/groups/plg-groups/plggillumina/DominikKrzysiu/grasshopper/quast-5.0.2/quast_libs/minimap2/minimap2 \
+     -c -x asm5 -B5 -O4,16 --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 \
+     --min-occ 200 -g 2500 --score-N 2 --cs -t 1 quast_results/results_2019_03_07_11_37_32/quast_corrected_input/genome.fa \
+     quast_results/results_2019_03_07_11_37_32/quast_corrected_input/ref_ma.fasta \
+     > quast_results/results_2019_03_07_11_37_32/contigs_reports/minimap_output/ref_ma.coords_tmp \
+     2>> quast_results/results_2019_03_07_11_37_32/contigs_reports/contigs_report_ref_ma.stderr
+  2  Analysis is finished.
+
+  3  Analysis is finished.
+
+  1  Analysis is finished.
+
+  Creating total report...
+    saved to /mnt/groups/plg-groups/plggillumina/DominikKrzysiu/grasshopper/probaUruchomienia/quast_wyniki/quast_results/results_2019_03_07_11_37_32/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Transposed version of total report...
+    saved to /mnt/groups/plg-groups/plggillumina/DominikKrzysiu/grasshopper/probaUruchomienia/quast_wyniki/quast_results/results_2019_03_07_11_37_32/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+  Creating total report...
+    saved to /mnt/groups/plg-groups/plggillumina/DominikKrzysiu/grasshopper/probaUruchomienia/quast_wyniki/quast_results/results_2019_03_07_11_37_32/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+Done.
+
+2019-03-07 11:38:11
+Running NA-NGA calculation...
+  1  ma_T0, Largest alignment = 2847, NA50 = 413, LA50 = 99
+  2  ma_T1, Largest alignment = 2102, NA50 = 530, LA50 = 104
+  3  ref_ma, Largest alignment = 7092, NA50 = 804, LA50 = 78
+Done.
+
+2019-03-07 11:38:13
+Running Genome analyzer...
+  NOTICE: No file with genomic features were provided. Use the --features option if you want to specify it.
+
+  NOTICE: No file with operons were provided. Use the -O option if you want to specify it.
+  1  ma_T0
+  2  ma_T1
+  3  ref_ma
+  2  Analysis is finished.
+  1  Analysis is finished.
+  3  Analysis is finished.
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2019-03-07 11:38:51
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 1: Creating Icarus viewers...
+Done
+
+2019-03-07 11:38:56
+RESULTS:
+  Text versions of total report are saved to /mnt/groups/plg-groups/plggillumina/DominikKrzysiu/grasshopper/probaUruchomienia/quast_wyniki/quast_results/results_2019_03_07_11_37_32/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /mnt/groups/plg-groups/plggillumina/DominikKrzysiu/grasshopper/probaUruchomienia/quast_wyniki/quast_results/results_2019_03_07_11_37_32/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /mnt/groups/plg-groups/plggillumina/DominikKrzysiu/grasshopper/probaUruchomienia/quast_wyniki/quast_results/results_2019_03_07_11_37_32/report.html
+  Icarus (contig browser) is saved to /mnt/groups/plg-groups/plggillumina/DominikKrzysiu/grasshopper/probaUruchomienia/quast_wyniki/quast_results/results_2019_03_07_11_37_32/icarus.html
+  Log is saved to /mnt/groups/plg-groups/plggillumina/DominikKrzysiu/grasshopper/probaUruchomienia/quast_wyniki/quast_results/results_2019_03_07_11_37_32/quast.log
+
+Finished: 2019-03-07 11:38:56
+Elapsed time: 0:01:24.179890
+NOTICEs: 4; WARNINGs: 1; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

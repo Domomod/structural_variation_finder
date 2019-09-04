@@ -30,9 +30,15 @@ struct Quast_Block{
         local_orientation  = local_start  < local_end ;
     }
 
-    long calculate_local_distance(const Quast_Block & second) const;
+    bool mapped_onto_same_chromosome_as(const Quast_Block & second) const;
 
-    long calculate_global_distance(const Quast_Block & second) const;
+    long calculate_alignment_gap(const Quast_Block &second) const;
+
+    long calculate_reference_gap(const Quast_Block &second) const;
+
+    std::pair<long,long> calculate_global_gap_coords(const Quast_Block &second) const;
+
+    std::pair<long,long> calculate_outer_coords(const Quast_Block &second) const;
 };
 
 #endif //GAMEENGINE_QUAST_BLOCK_H

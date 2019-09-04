@@ -1,0 +1,9 @@
+<?xml version = "1.0"?>
+<program_init>
+    <alignment_data>../quast_wyniki/quast_results/results_2019_03_07_11_37_32/contigs_reports/all_alignments_ma_T1.tsv</alignment_data>
+
+    <insertion_max_reference_gap>5</insertion_max_reference_gap>
+    <deltion_max_alignment_gap>5</deltion_max_alignment_gap>
+    <deltion_max_size>500</deltion_max_size>
+    <invertion_max_reference_gap>5</invertion_max_reference_gap>
+</program_init>

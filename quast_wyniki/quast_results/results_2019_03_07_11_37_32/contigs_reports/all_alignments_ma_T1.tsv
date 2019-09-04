@@ -1,0 +1,360 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+11755412	11755547	4781	4646	4	alignment0	99.26		True
+CONTIG	alignment0	4781	correct_unaligned
+15132546	15132887	3821	4162	3	alignment1	100.0		True
+CONTIG	alignment1	4162	correct_unaligned
+24018101	24018185	3428	3512	5	alignment2	96.47		True
+CONTIG	alignment2	3527	correct_unaligned
+CONTIG	alignment3	3322	unaligned
+14474747	14474878	2183	2315	3	alignment4	96.24		True
+CONTIG	alignment4	3063	correct_unaligned
+12487383	12487938	1	556	5	alignment5	95.14		True
+CONTIG	alignment5	2510	correct_unaligned
+CONTIG	alignment6	2275	unaligned
+13959050	13959347	298	1	2	alignment7	100.0		True
+unknown
+13958735	13959056	2152	1831	2	alignment7	100.0		True
+unknown
+CONTIG	alignment7	2152	mis_unaligned
+8986194	8988306	2102	1	4	alignment8	99.24		True
+CONTIG	alignment8	2102	correct
+3507852	3507966	1	115	4	alignment9	100.0		True
+CONTIG	alignment9	2081	correct_unaligned
+140167	142192	1	2026	Pt	alignment10	100.0		True
+CONTIG	alignment10	2026	correct
+15148111	15148275	1866	1700	1	alignment11	95.21		True
+CONTIG	alignment11	1946	correct_unaligned
+86745	88668	1924	1	Pt	alignment12	100.0		True
+CONTIG	alignment12	1924	correct
+21317312	21317420	109	1	5	alignment13	100.0		True
+CONTIG	alignment13	1862	correct_unaligned
+14309746	14310041	296	1	1	alignment14	100.0		True
+unknown
+3213203	3213355	1758	1606	2	alignment14	98.04		True
+unknown
+CONTIG	alignment14	1759	mis_unaligned
+5472295	5472399	1	105	4	alignment15	99.05		True
+unknown
+21321030	21321228	1488	1290	5	alignment15	95.98		True
+unknown
+21320860	21321029	1660	1491	5	alignment15	98.24		True
+unknown
+CONTIG	alignment15	1727	mis_unaligned
+5537319	5537407	712	624	4	alignment16	96.63		True
+unknown
+5537150	5537230	881	801	4	alignment16	96.3		True
+unknown
+29300709	29300884	1114	1289	1	alignment16	96.02		True
+unknown
+29300941	29301111	1346	1516	1	alignment16	95.91		True
+unknown
+CONTIG	alignment16	1644	mis_unaligned
+CONTIG	alignment17	1641	unaligned
+CONTIG	alignment18	1550	unaligned
+CONTIG	alignment19	1513	unaligned
+CONTIG	alignment20	1451	unaligned
+3965344	3965445	1	102	2	alignment21	96.08		True
+CONTIG	alignment21	1449	correct_unaligned
+9108733	9110153	1415	1	4	alignment22	99.58		True
+CONTIG	alignment22	1415	correct
+CONTIG	alignment23	1333	unaligned
+151858	153193	1336	1	Pt	alignment24	100.0		True
+CONTIG	alignment24	1336	correct
+11186859	11186958	1222	1321	5	alignment25	100.0		True
+CONTIG	alignment25	1321	correct_unaligned
+CONTIG	alignment26	1324	unaligned
+89146	90436	1	1291	Pt	alignment27	100.0		True
+CONTIG	alignment27	1293	correct
+146301	147567	1	1267	Pt	alignment28	100.0		True
+CONTIG	alignment28	1285	correct
+128582	129830	1249	1	Pt	alignment29	100.0		True
+CONTIG	alignment29	1249	correct
+9441779	9442918	1135	1	4	alignment30	99.21		True
+CONTIG	alignment30	1135	correct
+9192434	9192799	366	1	4	alignment31	99.73		True
+CONTIG	alignment31	1128	correct_unaligned
+CONTIG	alignment32	1102	unaligned
+153541	154478	1	938	Pt	alignment33	100.0		True
+fake: not a misassembly [linear representation of circular genome]
+1	65	939	1003	Pt	alignment33	100.0		True
+CONTIG	alignment33	1003	correct
+95385	96495	1111	1	Pt	alignment34	100.0		True
+CONTIG	alignment34	1111	correct
+78555	79596	1060	19	Pt	alignment35	100.0		True
+CONTIG	alignment35	1060	correct
+9432437	9433430	994	1	4	alignment36	99.4		True
+CONTIG	alignment36	994	correct
+2609996	2610123	994	867	5	alignment37	100.0		True
+CONTIG	alignment37	994	correct_unaligned
+20739221	20740203	982	1	3	alignment38	99.9		True
+CONTIG	alignment38	982	correct
+8979557	8980545	982	1	4	alignment39	98.99		True
+CONTIG	alignment39	982	correct
+137783	138758	1	976	Pt	alignment40	100.0		True
+CONTIG	alignment40	976	correct
+139244	140214	970	1	Pt	alignment41	99.9		True
+CONTIG	alignment41	970	correct
+8985265	8986227	1	951	4	alignment42	98.34		True
+CONTIG	alignment42	951	correct
+9343616	9343866	251	1	4	alignment43	100.0		True
+unknown
+9343456	9343615	936	777	4	alignment43	100.0		True
+unknown
+CONTIG	alignment43	936	mis_unaligned
+9235675	9236609	1	935	4	alignment44	99.79		True
+CONTIG	alignment44	935	correct
+CONTIG	alignment45	934	unaligned
+8975570	8976504	932	1	4	alignment46	99.68		True
+CONTIG	alignment46	932	correct
+9054686	9055612	925	1	4	alignment47	99.68		True
+CONTIG	alignment47	925	correct
+CONTIG	alignment48	912	unaligned
+3139965	3140059	642	549	2	alignment49	97.89		True
+CONTIG	alignment49	906	correct_unaligned
+92307	93198	892	1	Pt	alignment50	100.0		True
+CONTIG	alignment50	892	correct
+15407361	15407429	129	197	1	alignment51	95.65		True
+unknown
+15407624	15407696	390	462	1	alignment51	95.89		True
+unknown
+CONTIG	alignment51	826	mis_unaligned
+9668303	9669171	868	1	4	alignment52	99.66		True
+CONTIG	alignment52	868	correct
+2676231	2677095	1	856	1	alignment53	98.96		True
+CONTIG	alignment53	856	correct
+CONTIG	alignment54	842	unaligned
+CONTIG	alignment55	841	unaligned
+10967791	10968629	1	837	4	alignment56	99.52		True
+CONTIG	alignment56	837	correct
+3566511	3567339	1	828	5	alignment57	99.88		True
+CONTIG	alignment57	828	correct
+14542344	14543169	2	826	2	alignment58	99.88		True
+CONTIG	alignment58	826	correct
+19227987	19228791	1	803	3	alignment59	99.75		True
+CONTIG	alignment59	803	correct
+14098079	14098885	1	806	4	alignment60	99.88		True
+CONTIG	alignment60	806	correct
+11448398	11449203	1	804	4	alignment61	99.75		True
+CONTIG	alignment61	804	correct
+10015683	10016482	1	799	4	alignment62	99.88		True
+CONTIG	alignment62	799	correct
+93155	93953	1	799	Pt	alignment63	100.0		True
+CONTIG	alignment63	799	correct
+4002428	4002493	66	1	5	alignment64	98.48		True
+unknown
+4002355	4002423	135	67	5	alignment64	97.1		True
+unknown
+CONTIG	alignment64	793	mis_unaligned
+108072	108859	788	1	Pt	alignment65	100.0		True
+CONTIG	alignment65	788	correct
+392137	392927	1	780	5	alignment66	98.11		True
+CONTIG	alignment66	780	correct
+9677578	9678356	770	1	4	alignment67	98.2		True
+CONTIG	alignment67	770	correct
+859516	860282	766	1	1	alignment68	99.87		True
+CONTIG	alignment68	766	correct
+8584338	8585107	765	1	4	alignment69	98.83		True
+CONTIG	alignment69	765	correct
+9183766	9184522	1	754	4	alignment70	99.47		True
+CONTIG	alignment70	754	correct
+147516	148273	758	1	Pt	alignment71	100.0		True
+CONTIG	alignment71	758	correct
+124890	125644	755	1	Pt	alignment72	100.0		True
+CONTIG	alignment72	755	correct
+8974382	8975135	750	1	4	alignment73	99.47		True
+CONTIG	alignment73	750	correct
+1716268	1716972	1	704	4	alignment74	99.43		True
+CONTIG	alignment74	704	correct
+11767239	11767433	733	539	5	alignment75	96.94		True
+CONTIG	alignment75	733	correct_unaligned
+CONTIG	alignment76	738	unaligned
+6880008	6880743	1	734	4	alignment77	99.46		True
+CONTIG	alignment77	734	correct
+14347634	14348354	1	721	5	alignment78	100.0		True
+CONTIG	alignment78	721	correct
+19249062	19249778	714	1	3	alignment79	98.61		True
+CONTIG	alignment79	714	correct
+CONTIG	alignment80	676	unaligned
+26975317	26975502	701	516	5	alignment81	100.0		True
+CONTIG	alignment81	701	correct_unaligned
+11084897	11085594	1	698	4	alignment82	100.0		True
+CONTIG	alignment82	698	correct
+9819306	9820002	696	1	5	alignment83	99.86		True
+CONTIG	alignment83	696	correct
+11059800	11060495	696	1	4	alignment84	100.0		True
+CONTIG	alignment84	696	correct
+CONTIG	alignment85	559	unaligned
+10039359	10040052	1	691	4	alignment86	99.57		True
+CONTIG	alignment86	691	correct
+21179657	21180348	1	690	3	alignment87	99.57		True
+CONTIG	alignment87	690	correct
+6861379	6862070	1	688	4	alignment88	97.98		True
+CONTIG	alignment88	688	correct
+6666317	6666522	206	1	4	alignment89	100.0		True
+local misassembly
+6665788	6666176	626	238	4	alignment89	100.0		True
+CONTIG	alignment89	626	correct
+21222053	21222724	1	671	3	alignment90	99.85		True
+CONTIG	alignment90	671	correct
+3448369	3449040	1	670	4	alignment91	99.7		True
+CONTIG	alignment91	670	correct
+9434834	9435510	1	667	4	alignment92	97.93		True
+CONTIG	alignment92	667	correct
+CONTIG	alignment93	649	unaligned
+CONTIG	alignment94	660	unaligned
+110384	111041	1	658	Pt	alignment95	100.0		True
+CONTIG	alignment95	658	correct
+9050458	9051112	654	1	4	alignment96	99.85		True
+CONTIG	alignment96	657	correct
+12851939	12852602	656	1	3	alignment97	98.8		True
+CONTIG	alignment97	656	correct
+14832549	14833205	656	1	3	alignment98	99.85		True
+CONTIG	alignment98	656	correct
+17254404	17255053	649	1	4	alignment99	99.85		True
+CONTIG	alignment99	649	correct
+3441858	3442504	1	647	2	alignment100	100.0		True
+CONTIG	alignment100	647	correct
+4315923	4316567	644	1	3	alignment101	99.84		True
+CONTIG	alignment101	644	correct
+93909	94552	1	644	Pt	alignment102	100.0		True
+CONTIG	alignment102	644	correct
+17639469	17639931	463	1	1	alignment103	99.78		True
+local misassembly
+17639179	17639359	644	464	1	alignment103	100.0		True
+CONTIG	alignment103	644	correct
+10902146	10902787	642	1	4	alignment104	99.84		True
+CONTIG	alignment104	642	correct
+124107	124745	639	1	Pt	alignment105	100.0		True
+CONTIG	alignment105	639	correct
+63683	64319	1	637	Pt	alignment106	100.0		True
+CONTIG	alignment106	637	correct
+2501	3130	1	630	Pt	alignment107	100.0		True
+CONTIG	alignment107	630	correct
+14612606	14612693	542	629	3	alignment108	95.45		True
+CONTIG	alignment108	629	correct_unaligned
+128000	128656	657	1	Pt	alignment109	100.0		True
+CONTIG	alignment109	657	correct
+14198679	14199301	623	1	3	alignment110	100.0		True
+CONTIG	alignment110	623	correct
+15132081	15132294	1	214	3	alignment111	100.0		True
+CONTIG	alignment111	618	correct
+130602	131217	1	616	Mt	alignment112	100.0		True
+CONTIG	alignment112	616	correct
+14336117	14336729	613	1	5	alignment113	99.67		True
+CONTIG	alignment113	613	correct
+2718324	2718930	1	606	2	alignment114	99.84		True
+CONTIG	alignment114	606	correct
+2058918	2058982	1	65	4	alignment115	96.92		True
+CONTIG	alignment115	593	correct_unaligned
+129	637	510	1	3	alignment116	99.8		True
+CONTIG	alignment116	607	correct
+14195395	14195975	1	582	3	alignment117	99.14		True
+CONTIG	alignment117	582	correct
+9911299	9911898	599	1	4	alignment118	99.83		True
+CONTIG	alignment118	599	correct
+23221025	23221624	1	598	1	alignment119	99.67		True
+CONTIG	alignment119	598	correct
+616	1213	1	598	Pt	alignment120	100.0		True
+CONTIG	alignment120	598	correct
+17317421	17318006	3	595	4	alignment121	98.82		True
+CONTIG	alignment121	595	correct
+17317961	17318551	595	6	4	alignment122	99.83		True
+CONTIG	alignment122	595	correct
+14014730	14014820	251	161	3	alignment123	95.6		True
+CONTIG	alignment123	594	correct
+114373	114964	592	1	Pt	alignment124	100.0		True
+CONTIG	alignment124	592	correct
+116494	117082	589	1	Pt	alignment125	100.0		True
+CONTIG	alignment125	589	correct
+16131998	16132580	582	1	1	alignment126	99.83		True
+CONTIG	alignment126	582	correct
+5723	6310	588	1	Pt	alignment127	100.0		True
+CONTIG	alignment127	588	correct
+4004147	4004252	212	107	5	alignment128	97.17		True
+CONTIG	alignment128	585	correct
+2610118	2610452	250	584	5	alignment129	100.0		True
+CONTIG	alignment129	584	correct
+10021033	10021616	1	583	4	alignment130	99.83		True
+CONTIG	alignment130	583	correct
+8999718	9000298	579	1	4	alignment131	99.66		True
+CONTIG	alignment131	579	correct
+130023	130596	1	574	Mt	alignment132	100.0		True
+CONTIG	alignment132	574	correct
+14202782	14203295	1	514	3	alignment133	99.81		True
+CONTIG	alignment133	568	correct
+15290786	15291085	575	276	1	alignment134	95.67		True
+CONTIG	alignment134	575	correct
+14069424	14069998	574	1	3	alignment135	99.83		True
+CONTIG	alignment135	574	correct
+19276804	19277367	563	1	2	alignment136	99.82		True
+CONTIG	alignment136	569	correct
+8657624	8658194	1	569	4	alignment137	99.65		True
+CONTIG	alignment137	569	correct
+13023031	13023597	567	1	3	alignment138	100.0		True
+CONTIG	alignment138	567	correct
+121005	121569	565	1	Pt	alignment139	100.0		True
+CONTIG	alignment139	565	correct
+14243382	14243944	563	1	3	alignment140	100.0		True
+CONTIG	alignment140	563	correct
+CONTIG	alignment141	562	unaligned
+138723	139283	561	1	Pt	alignment142	100.0		True
+CONTIG	alignment142	561	correct
+9610300	9610857	1	557	4	alignment143	99.82		True
+CONTIG	alignment143	557	correct
+7303955	7304512	1	555	4	alignment144	99.46		True
+CONTIG	alignment144	555	correct
+CONTIG	alignment145	553	unaligned
+107566	108117	1	552	Pt	alignment146	100.0		True
+CONTIG	alignment146	552	correct
+11383897	11384442	546	1	4	alignment147	99.45		True
+CONTIG	alignment147	546	correct
+117537	118078	546	5	Pt	alignment148	100.0		True
+CONTIG	alignment148	546	correct
+9073568	9074107	1	540	4	alignment150	100.0		True
+CONTIG	alignment150	540	correct
+94891	95430	540	1	Pt	alignment151	100.0		True
+CONTIG	alignment151	540	correct
+50795	51331	539	3	Pt	alignment152	100.0		True
+CONTIG	alignment152	539	correct
+CONTIG	alignment153	529	unaligned
+8125147	8125674	527	1	2	alignment154	99.81		True
+CONTIG	alignment154	527	correct
+9570383	9570918	535	1	4	alignment155	99.81		True
+CONTIG	alignment155	535	correct
+CONTIG	alignment156	529	unaligned
+9613009	9613539	530	1	4	alignment157	99.81		True
+CONTIG	alignment157	530	correct
+10537174	10537564	134	524	4	alignment158	98.98		True
+CONTIG	alignment158	524	correct
+4578595	4579118	523	1	4	alignment159	99.81		True
+CONTIG	alignment159	523	correct
+149505	150026	522	1	Pt	alignment160	100.0		True
+CONTIG	alignment160	522	correct
+137037	137557	521	1	Pt	alignment161	100.0		True
+CONTIG	alignment161	521	correct
+58730	59250	521	1	Pt	alignment162	100.0		True
+CONTIG	alignment162	521	correct
+8219714	8220234	1	520	4	alignment163	99.81		True
+CONTIG	alignment163	520	correct
+CONTIG	alignment164	520	unaligned
+CONTIG	alignment165	514	unaligned
+19259554	19260073	1	519	2	alignment166	99.81		True
+CONTIG	alignment166	519	correct
+8975093	8975610	518	1	4	alignment167	100.0		True
+CONTIG	alignment167	518	correct
+43924	44439	1	516	Pt	alignment168	100.0		True
+CONTIG	alignment168	516	correct
+9016189	9016704	515	1	4	alignment169	99.81		True
+CONTIG	alignment169	515	correct
+10711843	10712358	515	1	2	alignment170	99.42		True
+CONTIG	alignment170	515	correct
+8976448	8976958	7	513	4	alignment171	98.83		True
+CONTIG	alignment171	513	correct
+9440253	9440767	506	1	4	alignment172	97.1		True
+CONTIG	alignment172	506	correct
+15162879	15163383	1	505	4	alignment173	100.0		True
+CONTIG	alignment173	505	correct
+18652078	18652328	176	426	3	alignment175	95.62		True
+CONTIG	alignment175	502	correct
+111003	111505	503	1	Pt	alignment178	100.0		True
+CONTIG	alignment178	503	correct
